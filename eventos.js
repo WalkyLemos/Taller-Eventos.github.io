@@ -7,3 +7,7 @@ function soyElDiv(){
 }
 
 document.getElementById("divPrincipal").addEventListener("click", soyElDiv)
+
+document.getElementById("saludarBtn").addEventListener("click", function(event) {
+    event.stopPropagation();
+  });
