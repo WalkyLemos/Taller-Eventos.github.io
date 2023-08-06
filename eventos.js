@@ -2,4 +2,8 @@ function saludar() {
     alert('¡Hola! Bienvenido a mi página.');
 }
 
-window.onload = saludar;
+function soyElDiv(){
+    alert("Hola soy el div")
+}
+
+document.getElementById("divPrincipal").addEventListener("click", soyElDiv)
